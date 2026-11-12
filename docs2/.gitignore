@@ -1,0 +1,7 @@
+# 运行时数据与缓存不入库
+app/data/
+__pycache__/
+*.pyc
+verify_output*.txt
+verify_result.txt
+git_status_tmp.txt

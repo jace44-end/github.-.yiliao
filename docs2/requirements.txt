@@ -1,0 +1,6 @@
+# Phase 1 依赖清单（技术栈已冻结，不许替换、不许引入未要求的中间件）
+fastapi>=0.110,<1.0        # Web 框架
+uvicorn>=0.29,<1.0         # ASGI 服务器
+sqlalchemy>=2.0,<3.0       # ORM（访问 SQLite）
+pyyaml>=6.0,<7.0           # 读取 config.yaml
+httpx>=0.27,<1.0           # 测试/验证脚本用的 HTTP 客户端
